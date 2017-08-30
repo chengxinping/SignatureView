@@ -32,3 +32,6 @@ SignatureView是一个简单的手写签名View。
  
  
 **需要注意的是使用保存照片方法需要在`AndroidManifest`里面添加写入文件权限。**
+
+### Screenshot
+![](https://github.com/chengxinping/SignatureView/blob/master/Screanshot/1.png)
