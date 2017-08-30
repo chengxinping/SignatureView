@@ -21,11 +21,11 @@ SignatureView是一个简单的手写签名View。
 ### 方法介绍
  1. 设置画笔宽度：默认画笔宽度为5,可使用`mSignatureView.setLineWidth(10);`来修改画笔宽度。
  
-2. 设置画笔颜色：默认画笔颜色为黑色,可使用`mSignatureView.setLineColor(Color.GREEN);`来修改画笔宽度。
+2. 设置画笔颜色：默认画笔颜色为黑色,可使用`mSignatureView.setLineColor(Color.GREEN);`来修改画笔颜色。
  
 3. clear：  调用`mSignatureView.clear()`能清除界面上的签名。
 
-4. getBitmap：`mSignatureView.getBitmap();`讲界面转化为bitmap。
+4. getBitmap：`mSignatureView.getBitmap();`将界面转化为bitmap。
 
 
 5. 保存签名：`mSignatureView.saveBitmap(path);`方法保存签名照片，传入需要保存的路径，保存格式为jpeg。
